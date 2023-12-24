@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Generic styles */
+ul{
+    list-style-type: none;
+}
+.d-flex{
+    display: flex;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.py{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.px{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* header */
+.header{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+
+}
+.logo{
+    width: 100px;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+input[type="text"]{
+    height: 35px;
+    padding: 10px 24px;
+    width: 600px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+.mic{
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.main{
+    padding-top: 70px;
+}
+
+.aside{
+    width: 300px;
+    height: calc(100vh - 70px);
+    position: fixed;
+    overflow-y: auto;
+}
+.video-wrapper{
+    padding-left: 316px;
+}
